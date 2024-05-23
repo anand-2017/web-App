@@ -1,0 +1,429 @@
+body {
+
+    margin: 0;
+}
+
+* {
+
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url(../font/VarelaRound-Regular.ttf);
+}
+
+.bootstrap-website {
+
+    .sec1 {
+
+        height: 100vh;
+
+        .r1 {
+
+            border-bottom: 3px solid rgb(197, 197, 197);
+
+            .c1 {
+
+                height: 10vh;
+
+                .logo {
+
+                    width: 70px;
+                    height: 20px;
+                    color: blue;
+                    z-index: 2;
+                    scale: 1.2;
+                }
+
+                .name {
+
+                    width: 90px;
+                    height: 10px;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    margin-top: 3px;
+                    letter-spacing: 3px;
+                    transform: translateY(5px) translateX(-5px);
+                }
+
+            }
+
+            .c2 {
+
+                font-weight: 600;
+                color: rgb(91, 95, 98);
+                font-size: 14px;
+
+                .address {
+
+                    text-transform: capitalize;
+                }
+
+                .fa-location-pin,
+                .fa-envelope {
+                    color: rgb(46, 141, 195);
+                }
+
+            }
+        }
+
+        .r2 {
+
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+
+            .c1 {
+
+                margin-left: 310px;
+                color: rgb(91, 95, 98);
+                font-weight: 600;
+
+            }
+
+            .c2 {
+
+
+                color: rgb(94, 187, 239);
+                font-weight: 700;
+                font-size: 18px;
+                margin-left: 320px;
+            }
+        }
+
+        .r3 {
+
+            height: 84vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .background {
+                width: 100%;
+                height: 84vh;
+                background: url(../image/close-up-young-business-person-doing-internship.jpg);
+                background-size: cover;
+                filter: opacity(0.6);
+                filter: contrast(0.4);
+                filter: brightness(0.3);
+            }
+
+            .txt {
+
+                position: absolute;
+                color: rgb(255, 255, 255);
+                margin-top: 140px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+
+                .txt1 {
+                    font-size: 55px;
+                    font-family: 'myfont';
+                }
+
+                .txt2 {
+                    font-size: 75px;
+                    font-weight: 600;
+                    font-family: 'myfont';
+                    letter-spacing: 2px;
+                    margin-top: 3px;
+                }
+
+                .txt3 {
+                    width: 850px;
+                    font-size: 18px;
+                    font-family: 'myfont';
+                    margin-top: 20px;
+                }
+
+
+                .txt4 {
+                    width: 180px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 40px;
+                    background-color: rgb(255, 185, 1);
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    font-family: 'myfont';
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .fa-mountain-sun:nth-child(1) {
+
+        color: rgb(255, 69, 3);
+        scale: 1.5;
+
+    }
+
+    .fa-mountain-sun:nth-child(2) {
+
+        color: rgb(46, 141, 195);
+        scale: 1.5;
+        position: absolute;
+        z-index: -50;
+    }
+
+    .fa-mountain-sun:nth-child(3) {
+
+        color: rgb(252, 183, 5);
+        scale: 1.5;
+        transform: translate(15px);
+    }
+
+
+    /* COLOUR-BOX */
+    .colour {
+
+        /* width: 1100px; */
+        display: flex;
+        color: white;
+        position: absolute;
+        top: 660px;
+        /* left: 210px; */
+
+        .txt1 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .txt2 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .txt3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+
+        .txt4 {
+            font-weight: 600;
+        }
+
+        .txt5 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .maroon {
+            background-color: rgb(255, 95, 1);
+            padding: 35px;
+            text-align: left;
+
+
+        }
+
+        .blue {
+            background: rgb(81, 197, 236);
+            padding: 40px;
+            text-align: left;
+
+
+        }
+
+        .green {
+            background: rgb(180, 223, 89);
+            padding: 40px;
+            text-align: left;
+
+
+        }
+    }
+
+
+    /* SECTION-2 */
+
+    .sec2 {
+
+        height: 680px;
+        display: flex;
+        justify-content: center;
+
+        .c1 {
+            width: 400px;
+            transform: translateY(300px);
+
+            .txt1 {
+
+                text-transform: capitalize;
+                font-size: 26px;
+                font-weight: 700;
+            }
+
+            .txt2 {
+                width: 300px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .txt3 {
+                width: 120px;
+                height: 40px;
+                border: 2px solid brown;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: capitalize;
+                color: brown;
+                font-weight: 600;
+            }
+        }
+
+        .c2 {
+            width: 350px;
+            transform: translateY(300px);
+
+            .block1 {
+
+                .fa-chart-simple {
+                    color: rgb(81, 197, 236);
+                    scale: 2.5;
+                    margin-left: 10px;
+                    margin-top: 10px;
+
+                }
+
+                .txt1 {
+
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: 18px;
+                }
+
+                .txt2 {
+
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-top: 16px;
+                    width: 330px;
+                }
+            }
+
+            .block2 {
+
+                .fa-piggy-bank {
+                    color: rgb(254, 213, 88);
+                    scale: 2.5;
+                    margin-left: 10px;
+                    margin-top: 50px;
+                }
+
+                .txt1 {
+
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: 18px;
+                }
+
+                .txt2 {
+
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-top: 16px;
+                    width: 330px;
+                }
+            }
+        }
+
+        .c3 {
+            width: 350px;
+            transform: translateY(300px);
+
+            .block1 {
+
+                .fa-lightbulb {
+                    color: rgb(238, 137, 72);
+                    scale: 2.5;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                }
+
+                .txt1 {
+
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: 18px;
+                }
+
+                .txt2 {
+
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-top: 16px;
+                    width: 330px;
+                }
+            }
+
+            .block2 {
+
+                .fa-gear {
+                    color: rgb(197, 226, 93);
+                    scale: 2.5;
+                    margin-left: 10px;
+                    margin-top: 50px;
+                }
+
+                .txt1 {
+
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: 18px;
+                }
+
+                .txt2 {
+
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-top: 16px;
+                    width: 330px;
+                }
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

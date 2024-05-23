@@ -1,0 +1,95 @@
+:root {
+
+    --color1: rgb(124, 58, 230);
+    --color2: rgb(84, 58, 185);
+    --color3: rgb(253, 255, 251);
+    --color4: rgb(205, 123, 255);
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+.sec1 {
+
+    height: 15vh;
+    background: linear-gradient(to right, var(--color1), var(--color2));
+    display: flex;
+
+    .c1 {
+
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        color: var(--color4);
+
+    }
+
+    .c2 {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40vw;
+        font-size: 22px;
+        color: var(--color4);
+        margin-left: 70px;
+    }
+}
+
+
+.sec2 {
+    height: 85vh;
+    background: linear-gradient(to right, var(--color1), var(--color2));
+    display: flex;
+
+    .c1 {
+        width: 50vw;
+        height: 85vh;
+        background: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .txt1 {
+            font-size: 60px;
+        }
+
+        .txt2 {
+            font-size: 40px;
+        }
+
+        .txt3 {
+            font-size: 18px;
+        }
+
+        .txt4 {
+            font-size: 20px;
+        }
+    }
+
+
+
+    .c2 {
+
+        width: 50vw;
+
+        .photo {
+
+            width: 550px;
+            height: 550px;
+            background: url(../image/office\ image.jpg);
+            background-size: cover;
+            margin-left: 50px;
+
+        }
+    }
+}

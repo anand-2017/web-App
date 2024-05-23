@@ -1,0 +1,1685 @@
+body {
+
+    margin: 0;
+}
+
+* {
+
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url(../font/VarelaRound-Regular.ttf);
+}
+
+
+/* SECTION-1 */
+.sec1 {
+
+    height: 100vh;
+
+    .r1 {
+
+        height: 10vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        position: relative;
+        border-bottom: 3px solid rgb(197, 197, 197);
+
+        .c1 {
+
+            width: 90px;
+            height: 30px;
+            position: absolute;
+            left: 200px;
+            scale: 1.5;
+            transform: translate(60px);
+
+
+            .logo {
+
+                width: 70px;
+                height: 20px;
+                background-color: transparent;
+                color: blue;
+                position: relative;
+                z-index: 2;
+            }
+
+            .name {
+
+                width: 90px;
+                height: 10px;
+                font-size: 8px;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-top: 3px;
+                letter-spacing: 3px;
+                position: absolute;
+                right: 8px;
+
+            }
+        }
+
+        .c2 {
+            width: 600px;
+            position: absolute;
+            right: 200px;
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: 600;
+            color: rgb(91, 95, 98);
+            font-size: 14px;
+
+            .address {
+
+                text-transform: capitalize;
+            }
+
+            .fa-location-pin,
+            .fa-envelope {
+                color: rgb(46, 141, 195);
+            }
+        }
+
+    }
+
+
+    .r2 {
+
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+
+        .c1 {
+
+            display: flex;
+            width: 550px;
+            justify-content: space-between;
+            margin-left: 250px;
+            color: rgb(91, 95, 98);
+            font-weight: 600;
+
+        }
+
+        .c2 {
+
+            margin-left: 340px;
+            color: rgb(94, 187, 239);
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+
+    .r3 {
+
+        height: 84vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .background {
+            width: 100%;
+            height: 84vh;
+            background: url(../image/close-up-young-business-person-doing-internship.jpg);
+            background-size: cover;
+            filter: opacity(0.6);
+            filter: contrast(0.4);
+            filter: brightness(0.3);
+        }
+
+        .txt {
+
+            position: absolute;
+            color: rgb(255, 255, 255);
+            margin-top: 140px;
+
+
+            .txt1 {
+                font-size: 55px;
+                font-family: 'myfont';
+            }
+
+            .txt2 {
+                font-size: 75px;
+                font-weight: 600;
+                font-family: 'myfont';
+                letter-spacing: 2px;
+                margin-top: 3px;
+            }
+
+            .txt3 {
+                width: 850px;
+                font-size: 18px;
+                font-family: 'myfont';
+                margin-top: 40px;
+            }
+
+
+            .txt4 {
+                width: 180px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translate(340px, 40px);
+                background-color: rgb(255, 185, 1);
+                font-size: 18px;
+                text-transform: capitalize;
+                font-family: 'myfont';
+
+            }
+
+        }
+
+    }
+
+}
+
+.fa-mountain-sun:nth-child(1) {
+
+    color: rgb(255, 69, 3);
+    scale: 1.5;
+
+}
+
+.fa-mountain-sun:nth-child(2) {
+
+    color: rgb(46, 141, 195);
+    scale: 1.5;
+    position: absolute;
+    z-index: -50;
+}
+
+.fa-mountain-sun:nth-child(3) {
+
+    color: rgb(252, 183, 5);
+    scale: 1.5;
+    transform: translate(15px);
+}
+
+
+/* COLOUR-BOX */
+.colour {
+
+    width: 1100px;
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 660px;
+    left: 210px;
+
+    .maroon {
+        background-color: rgb(255, 95, 1);
+        padding: 35px;
+        text-align: left;
+
+        .txt1 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .txt2 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .txt3 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .txt4 {
+            font-weight: 600;
+        }
+
+        .txt5 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+    }
+
+    .blue {
+        background: rgb(81, 197, 236);
+        padding: 40px;
+        text-align: left;
+
+        .txt1 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .txt2 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .txt3 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .txt4 {
+            font-weight: 600;
+        }
+
+        .txt5 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+
+    .green {
+        background: rgb(180, 223, 89);
+        padding: 40px;
+        text-align: left;
+
+        .txt1 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .txt2 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .txt3 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .txt4 {
+            font-weight: 600;
+        }
+
+        .txt5 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}
+
+/* SECTION-2 */
+
+.sec2 {
+
+    height: 680px;
+    display: flex;
+    justify-content: center;
+
+    .c1 {
+        width: 400px;
+        transform: translateY(300px);
+
+        .txt1 {
+
+            text-transform: capitalize;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .txt2 {
+            width: 300px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .txt3 {
+            width: 120px;
+            height: 40px;
+            border: 2px solid brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: capitalize;
+            color: brown;
+            font-weight: 600;
+        }
+    }
+
+    .c2 {
+        width: 350px;
+        transform: translateY(300px);
+
+        .block1 {
+
+            .fa-chart-simple {
+                color: rgb(81, 197, 236);
+                scale: 2.5;
+                margin-left: 10px;
+                margin-top: 10px;
+
+            }
+
+            .txt1 {
+
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 18px;
+            }
+
+            .txt2 {
+
+                font-size: 14px;
+                font-weight: 500;
+                margin-top: 16px;
+                width: 330px;
+            }
+        }
+
+        .block2 {
+
+            .fa-piggy-bank {
+                color: rgb(254, 213, 88);
+                scale: 2.5;
+                margin-left: 10px;
+                margin-top: 50px;
+            }
+
+            .txt1 {
+
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 18px;
+            }
+
+            .txt2 {
+
+                font-size: 14px;
+                font-weight: 500;
+                margin-top: 16px;
+                width: 330px;
+            }
+        }
+    }
+
+    .c3 {
+        width: 350px;
+        transform: translateY(300px);
+
+        .block1 {
+
+            .fa-lightbulb {
+                color: rgb(238, 137, 72);
+                scale: 2.5;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+
+            .txt1 {
+
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 18px;
+            }
+
+            .txt2 {
+
+                font-size: 14px;
+                font-weight: 500;
+                margin-top: 16px;
+                width: 330px;
+            }
+        }
+
+        .block2 {
+
+            .fa-gear {
+                color: rgb(197, 226, 93);
+                scale: 2.5;
+                margin-left: 10px;
+                margin-top: 50px;
+            }
+
+            .txt1 {
+
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 18px;
+            }
+
+            .txt2 {
+
+                font-size: 14px;
+                font-weight: 500;
+                margin-top: 16px;
+                width: 330px;
+            }
+        }
+
+    }
+}
+
+
+/* SECTION-3 */
+.sec3 {
+
+    height: 400px;
+    position: relative;
+
+    .background {
+        width: 100%;
+        height: 400px;
+        background: url(../image/office\ image\ 2.jpg);
+        background-size: cover;
+        background-position: center;
+        filter: brightness(0.25);
+
+    }
+
+    .txt {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        left: 370px;
+
+
+        .txt1 {
+
+            font-size: 55px;
+            font-weight: 600;
+            font-family: 'myfont';
+            letter-spacing: 2px;
+            color: rgb(255, 255, 255);
+
+        }
+
+        .txt2 {
+
+            font-size: 25px;
+            font-weight: 600;
+            font-family: 'myfont';
+            color: rgb(255, 255, 255);
+            margin-top: 30px;
+        }
+
+        .txt3 {
+            width: 180px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 95, 1);
+            font-size: 18px;
+            text-transform: capitalize;
+            font-family: 'myfont';
+            color: rgb(255, 255, 255);
+            margin-top: 40px;
+        }
+    }
+}
+
+
+/* SECTION-4 */
+.sec4 {
+
+    height: 560px;
+    background: rgb(255, 255, 255);
+
+    .r1 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .txt1 {
+            font-size: 26px;
+            font-weight: 700;
+            margin-top: 70px;
+        }
+
+        .txt2 {
+            width: 550px;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 14px;
+            color: rgb(97, 91, 91);
+        }
+    }
+
+    .r2 {
+        height: 150px;
+        display: flex;
+        width: 1000px;
+        margin: auto;
+        margin-top: 30px;
+
+        .block1 {
+
+            text-align: center;
+            padding: 20px 30px;
+
+            .fa-atom {
+
+                color: rgb(6, 181, 193);
+                scale: 3;
+
+            }
+
+            .txt1 {
+
+                font-weight: 700;
+                margin-top: 20px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+        }
+
+        .block2 {
+
+            text-align: center;
+            padding: 20px 20px;
+
+            .fa-chart-line {
+
+                color: orange;
+                scale: 3;
+
+            }
+
+            .txt1 {
+
+                font-weight: 700;
+                margin-top: 20px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+        }
+
+        .block3 {
+
+            text-align: center;
+            padding: 20px 20px;
+
+
+            .fa-file {
+
+                color: rgb(16, 97, 5);
+                scale: 3;
+
+            }
+
+            .txt1 {
+
+                font-weight: 700;
+                margin-top: 20px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+        }
+    }
+
+
+    .r3 {
+
+        display: flex;
+        width: 1000px;
+        margin: auto;
+        margin-top: 20px;
+
+        .block1 {
+
+            text-align: center;
+            padding: 20px 30px;
+
+            .fa-globe {
+
+                color: rgb(16, 97, 5);
+                scale: 3;
+
+            }
+
+            .txt1 {
+
+                font-weight: 700;
+                margin-top: 20px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+        }
+
+        .block2 {
+
+            text-align: center;
+            padding: 20px 20px;
+
+            .fa-rocket {
+
+                color: rgb(193, 35, 11);
+                scale: 3;
+
+            }
+
+            .txt1 {
+
+                font-weight: 700;
+                margin-top: 20px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+        }
+
+        .block3 {
+
+            text-align: center;
+            padding: 20px 20px;
+
+            .fa-phone {
+
+                color: rgb(6, 181, 193);
+                scale: 3;
+
+            }
+
+            .txt1 {
+
+                font-weight: 700;
+                margin-top: 20px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+        }
+    }
+
+}
+
+
+/* SECTION-5 */
+.sec5 {
+
+    height: 490px;
+    position: relative;
+
+    .background {
+
+        background: url(../image/presentation.jpg);
+        height: 490px;
+        background-size: cover;
+        background-position: center;
+        filter: contrast(0.3) brightness(0.6);
+    }
+
+    .txt {
+
+        width: 100%;
+        height: 490px;
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .fa-circle-play {
+
+            scale: 4;
+            color: rgb(35, 203, 189);
+            outline: 3.5px solid rgba(75, 176, 215, 0.356);
+            border-radius: 50%;
+        }
+
+        .txt1 {
+
+            color: aliceblue;
+            font-family: 'myfont';
+            font-weight: 700;
+            font-size: 40px;
+            letter-spacing: 3px;
+            margin-top: 80px;
+
+        }
+
+        .txt2 {
+
+            color: aliceblue;
+            font-family: 'myfont';
+            font-weight: 500;
+            margin-top: 10px;
+        }
+    }
+
+}
+
+
+
+
+/* SECTION-6 */
+.sec6 {
+
+    height: 570px;
+    width: max-content;
+    margin: auto;
+
+
+    .r1 {
+
+        margin-top: 90px;
+
+        .txt1 {
+            font-family: 'myfont';
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .txt2 {
+
+            width: 600px;
+            color: rgb(97, 91, 91);
+            font-size: 14px;
+            margin-top: 20px;
+            font-weight: 600;
+
+        }
+    }
+
+    .r2 {
+
+        display: flex;
+        margin-top: 50px;
+
+        .c1 {
+
+            .box {
+                width: 220px;
+                height: 250px;
+                background: black;
+                background: url(../image/male-1\ \(1\).jpg);
+                background-size: cover;
+            }
+
+            .txt1 {
+                font-size: 15px;
+                font-weight: 700;
+                margin-top: 10px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+
+            .icons {
+
+                display: flex;
+                width: 100px;
+                justify-content: space-between;
+                margin-top: 14px;
+
+                .icon1 {
+                    color: rgb(7, 7, 126);
+                }
+
+                .icon2 {
+                    color: rgb(162, 16, 5);
+                }
+
+                .icon3 {
+                    color: rgb(5, 76, 91);
+                }
+
+                .icon4 {
+                    color: rgb(9, 148, 153);
+                }
+            }
+        }
+
+        .c2 {
+
+            margin-left: 20px;
+
+            .box {
+                width: 220px;
+                height: 250px;
+                background: black;
+                background: url(../image/female2.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            .txt1 {
+                font-size: 15px;
+                font-weight: 700;
+                margin-top: 10px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+
+            .icons {
+
+                display: flex;
+                width: 100px;
+                justify-content: space-between;
+                margin-top: 14px;
+
+                .icon1 {
+                    color: rgb(7, 7, 126);
+                }
+
+                .icon2 {
+                    color: rgb(162, 16, 5);
+                }
+
+                .icon3 {
+                    color: rgb(5, 76, 91);
+                }
+
+                .icon4 {
+                    color: rgb(9, 148, 153);
+                }
+            }
+        }
+
+        .c3 {
+
+            margin-left: 20px;
+
+            .box {
+                width: 220px;
+                height: 250px;
+                background: black;
+                background: url(../image/male-2.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            .txt1 {
+                font-size: 15px;
+                font-weight: 700;
+                margin-top: 10px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+
+            .icons {
+
+                display: flex;
+                width: 100px;
+                justify-content: space-between;
+                margin-top: 14px;
+
+                .icon1 {
+                    color: rgb(7, 7, 126);
+                }
+
+                .icon2 {
+                    color: rgb(162, 16, 5);
+                }
+
+                .icon3 {
+                    color: rgb(5, 76, 91);
+                }
+
+                .icon4 {
+                    color: rgb(9, 148, 153);
+                }
+            }
+        }
+
+        .c4 {
+
+            margin-left: 20px;
+
+            .box {
+                width: 220px;
+                height: 250px;
+                background: black;
+                background: url(../image/female1.jpg);
+                background-size: cover;
+                background-position: top;
+            }
+
+            .txt1 {
+                font-size: 15px;
+                font-weight: 700;
+                margin-top: 10px;
+            }
+
+            .txt2 {
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+                color: rgb(97, 91, 91);
+            }
+
+            .icons {
+
+                display: flex;
+                width: 100px;
+                justify-content: space-between;
+                margin-top: 14px;
+
+                .icon1 {
+                    color: rgb(7, 7, 126);
+                }
+
+                .icon2 {
+                    color: rgb(162, 16, 5);
+                }
+
+                .icon3 {
+                    color: rgb(5, 76, 91);
+                }
+
+                .icon4 {
+                    color: rgb(9, 148, 153);
+                }
+            }
+        }
+
+    }
+
+}
+
+
+/* SECTION-7 */
+.sec7 {
+
+    height: 380px;
+    background-color: rgb(73, 142, 73);
+    position: relative;
+
+
+    .background {
+
+        background: url(../image/office\ image\ 2.jpg);
+        height: 380px;
+        background-size: cover;
+        background-position: bottom;
+        filter: contrast(0.4) brightness(0.5);
+    }
+
+    .txt {
+
+        width: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+
+        .txt1 {
+            font-family: 'myfont';
+            font-size: 24px;
+            font-weight: 700;
+            color: aliceblue;
+        }
+
+        .txt2 {
+            font-family: 'myfont';
+            font-size: 14px;
+            font-weight: 600;
+            color: aliceblue;
+            text-align: center;
+            width: 500px;
+            margin: 20px;
+        }
+
+    }
+
+    .plans {
+
+        display: flex;
+        width: max-content;
+        margin: auto;
+        /* position: absolute;
+        top: 0;
+        left: 100px; */
+        margin-top: -170px;
+        position: relative;
+
+        .plan1 {
+
+            width: 280px;
+            height: 390px;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 10px rgb(51, 49, 49);
+
+            .fa-dollar-sign {
+
+                scale: 4;
+                margin-top: 25px;
+                color: rgb(218, 21, 21);
+            }
+
+            txt1 {
+                font-family: 'myfont';
+                font-size: 17px;
+                font-weight: 900;
+                margin-top: 45px;
+            }
+
+            txt2 {
+                font-family: 'myfont';
+                font-size: 50px;
+                font-weight: 900;
+
+                span {
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+
+            txt3 {
+                font-family: 'myfont';
+                font-size: 14px;
+                font-weight: 900;
+                width: 180px;
+                line-height: 30px;
+                text-align: center;
+                color: rgb(97, 91, 91);
+            }
+
+            txt4 {
+                font-family: 'myfont';
+                font-size: 14px;
+                font-weight: 900;
+                width: max-content;
+                height: 20px;
+                background: transparent;
+                color: rgb(218, 21, 21);
+                padding: 20px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid rgb(218, 21, 21);
+                margin-top: 10px;
+            }
+        }
+
+        .plan2 {
+
+            width: 280px;
+            height: 460px;
+            background-color: rgb(255, 255, 255);
+            padding: 55px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px;
+            box-shadow: 0 0 10px rgb(51, 49, 49);
+            margin-top: -40px;
+
+            .fa-money-bill {
+
+                scale: 4;
+                margin-top: 25px;
+                color: rgb(15, 153, 24);
+            }
+
+            txt1 {
+                font-family: 'myfont';
+                font-size: 17px;
+                font-weight: 900;
+                margin-top: 45px;
+            }
+
+            txt2 {
+                font-family: 'myfont';
+                font-size: 50px;
+                font-weight: 900;
+
+                span {
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+
+            txt3 {
+                font-family: 'myfont';
+                font-size: 14px;
+                font-weight: 900;
+                width: 180px;
+                line-height: 30px;
+                text-align: center;
+                color: rgb(97, 91, 91);
+            }
+
+            txt4 {
+                font-family: 'myfont';
+                font-size: 14px;
+                font-weight: 900;
+                width: max-content;
+                height: 20px;
+                background: transparent;
+                color: rgb(15, 153, 24);
+                padding: 20px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid rgb(15, 153, 24);
+                margin-top: 10px;
+            }
+
+        }
+
+        .plan3 {
+
+            width: 280px;
+            height: 390px;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 10px rgb(51, 49, 49);
+
+            .fa-indian-rupee-sign {
+
+                scale: 4;
+                margin-top: 25px;
+                color: rgb(15, 137, 213);
+            }
+
+            txt1 {
+                font-family: 'myfont';
+                font-size: 17px;
+                font-weight: 900;
+                margin-top: 45px;
+            }
+
+            txt2 {
+                font-family: 'myfont';
+                font-size: 50px;
+                font-weight: 900;
+
+                span {
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+
+            txt3 {
+                font-family: 'myfont';
+                font-size: 14px;
+                font-weight: 900;
+                width: 180px;
+                line-height: 30px;
+                text-align: center;
+                color: rgb(97, 91, 91);
+            }
+
+            txt4 {
+                font-family: 'myfont';
+                font-size: 14px;
+                font-weight: 900;
+                width: max-content;
+                height: 20px;
+                background: transparent;
+                color: rgb(15, 137, 213);
+                padding: 20px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid rgb(15, 137, 213);
+                margin-top: 10px;
+            }
+
+        }
+    }
+
+
+
+}
+
+
+
+
+/* SECTION-8 */
+.sec8 {
+
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    .r1 {
+
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'myfont';
+        margin-top: 230px;
+    }
+
+    .r2 {
+        display: flex;
+        margin-top: 50px;
+
+        .block1 {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-right: 30px;
+
+            .box {
+
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                background: black;
+                background: url(../image/male-3.jpg);
+                background-size: cover;
+            }
+
+            .txt1 {
+
+                font-size: 14px;
+                font-weight: 700;
+                font-family: 'myfont';
+                width: 450px;
+                color: rgb(97, 91, 91);
+                margin-top: 20px;
+                line-height: 20px;
+            }
+
+            .txt2 {
+
+                font-size: 14px;
+                font-weight: 700;
+                font-family: 'myfont';
+                margin-top: 20px;
+            }
+
+            .txt3 {
+
+                font-size: 14px;
+                font-weight: 700;
+                font-family: 'myfont';
+                color: rgb(97, 91, 91);
+                margin-top: 3px;
+
+            }
+        }
+
+        .block2 {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-left: 30px;
+
+            .box {
+
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                background: black;
+                background: url(../image/male-2.jpg);
+                background-size: cover;
+            }
+
+            .txt1 {
+
+                font-size: 14px;
+                font-weight: 700;
+                font-family: 'myfont';
+                width: 450px;
+                color: rgb(97, 91, 91);
+                margin-top: 20px;
+                line-height: 20px;
+            }
+
+            .txt2 {
+
+                font-size: 14px;
+                font-weight: 700;
+                font-family: 'myfont';
+                margin-top: 20px;
+            }
+
+            .txt3 {
+
+                font-size: 14px;
+                font-weight: 700;
+                font-family: 'myfont';
+                color: rgb(97, 91, 91);
+                margin-top: 3px;
+
+            }
+        }
+
+
+    }
+
+    .r3 {
+
+        display: flex;
+        margin-top: 30px;
+
+        .circle1 {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin-right: 10px;
+        }
+
+        .circle2 {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background: red;
+        }
+    }
+
+}
+
+
+
+
+/* SECTION-9 */
+.sec9 {
+
+    height: 700px;
+    position: relative;
+
+    .r1 {
+
+        height: 150px;
+        background-color: rgb(53, 68, 75);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .name {
+
+            width: 900px;
+            display: flex;
+            justify-content: space-between;
+            filter: brightness(0.3) contrast(1.2);
+
+            .c1 {
+
+                width: 170px;
+                height: 70px;
+                background: url(../image/a1.png);
+                background-size: contain;
+                background-position: center;
+
+            }
+
+            .c2 {
+
+                width: 170px;
+                height: 70px;
+                background: url(../image/a2.png);
+                background-size: contain;
+                background-position: center;
+            }
+
+            .c3 {
+
+                width: 170px;
+                height: 70px;
+                background: url(../image/a3.png);
+                background-size: contain;
+                background-position: center;
+            }
+
+            .c4 {
+
+                width: 170px;
+                height: 70px;
+                background: url(../image/a4.png);
+                background-size: contain;
+                background-position: center;
+            }
+
+        }
+
+    }
+
+    .r2 {
+        height: 510px;
+        width: 1000px;
+        margin: auto;
+        display: flex;
+
+
+        .c1 {
+            width: 100%;
+            padding-top: 40px;
+
+            .txt {
+
+                .txt1 {
+                    font-size: 26px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                    margin-top: 50px;
+                }
+
+                .txt2 {
+                    font-size: 14px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                    color: rgb(97, 91, 91);
+                    width: 400px;
+
+                }
+
+                .txt3 {
+                    font-size: 14px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                }
+
+                .txt4 {
+                    font-size: 14px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                    color: rgb(97, 91, 91);
+                }
+
+                .txt5 {
+                    font-size: 14px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                }
+
+                .txt6 {
+                    font-size: 14px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                    color: rgb(97, 91, 91);
+                }
+
+                .txt7 {
+                    font-size: 14px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                }
+
+                .txt8 {
+                    font-size: 14px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                    color: rgb(97, 91, 91);
+                }
+
+                .icons {
+
+                    display: flex;
+                    width: 100px;
+                    justify-content: space-between;
+                    margin-top: 14px;
+
+                    .icon1 {
+                        color: rgb(7, 7, 126);
+                    }
+
+                    .icon2 {
+                        color: rgb(162, 16, 5);
+                    }
+
+                    .icon3 {
+                        color: rgb(5, 76, 91);
+                    }
+
+                    .icon4 {
+                        color: rgb(9, 148, 153);
+                    }
+                }
+            }
+        }
+
+
+        .c2 {
+
+            width: 100%;
+            padding-top: 90px;
+
+            .txt {
+
+                .txt1 {
+                    font-size: 26px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                }
+
+                .txt2 {
+                    font-size: 14px;
+                    font-family: 'myfont';
+                    font-weight: 700;
+                    color: rgb(97, 91, 91);
+                    width: 400px;
+                }
+            }
+
+
+            .form {
+
+                .input1 {
+
+                    display: flex;
+                    justify-content: space-between;
+
+                    input {
+                        height: 30px;
+                        width: 250px;
+
+                    }
+                }
+            }
+
+
+            .txt3 {
+                font-size: 14px;
+                font-family: 'myfont';
+                font-weight: 700;
+                color: rgb(245, 239, 239);
+                width: max-content;
+                height: fit-content;
+                background: orange;
+                padding: 15px 20px;
+            }
+        }
+    }
+
+
+    .r3 {
+
+        height: 40px;
+        border-top: 1px solid rgba(97, 91, 91, 0.811);
+        display: flex;
+        align-items: center;
+
+        .c1 {
+            width: max-content;
+            font-size: 12px;
+            font-weight: 700;
+            color: rgb(97, 91, 91);
+            transform: translateX(260px);
+        }
+
+        .c2 {
+
+            display: flex;
+            width: 450px;
+            color: rgb(97, 91, 91);
+            font-size: 12px;
+            transform: translateX(420px);
+            justify-content: space-between;
+            font-weight: 700;
+        }
+    }
+
+
+    .uparrow {
+
+        scale: 2.5;
+        color: orangered;
+        position: absolute;
+        right: 20px;
+        bottom: 30px;
+    }
+
+}

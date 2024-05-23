@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+
+<body>
+
+
+
+
+    <form class="htmlform" action="" method="get">
+
+        <h1>student registration form using table in HTML</h1>
+
+
+        <div class="outline">
+
+            <div class="row">
+
+                <label class="c1" for="">First Name:</label>
+                <input class="c2" type="text" placeholder="Name">
+                <label class="c3" for="">(max 50 characters allowed)</label>
+
+            </div>
+
+            <div class="row">
+
+                <label class="c1" for="">last Name:</label>
+                <input class="c2" type="text" placeholder="Surname">
+                <label class="c3" for="">(max 50 characters allowed)</label>
+
+            </div>
+
+            <div class="row">
+
+                <label class="c1" for="">email ID:</label>
+                <input class="c2" type="text" placeholder="xyz@gmail.com">
+
+
+            </div>
+
+            <div class="row">
+
+                <label class="c1" for="">mobile number:</label>
+                <input class="c2" type="text" placeholder="810xxxxxxx">
+                <label class="c3" for="">(10 digits allowed)</label>
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">gender:</label>
+
+                <div class="c4">
+
+                    <input id="id1" name="G" type="radio">
+                    <label for="id1">male</label>
+                    <input id="id2" name="G" type="radio">
+                    <label for="id2">female</label>
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">date of birth (DOB):</label>
+                <select name="day list" id="">
+
+                    <optgroup label="">
+
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+
+
+                    </optgroup>
+
+                    <option hidden selected value="">Day</option>
+
+                </select>
+
+                <select name="month list" id="">
+
+                    <optgroup label="">
+
+                        <option value="">january</option>
+                        <option value="">february</option>
+                        <option value="">march</option>
+                        <option value="">april</option>
+                        <option value="">may</option>
+                        <option value="">june</option>
+                        <option value="">july</option>
+                        <option value="">august</option>
+                        <option value="">september</option>
+                        <option value="">october</option>
+                        <option value="">november</option>
+                        <option value="">december</option>
+
+                    </optgroup>
+
+                    <option hidden selected value="">Month</option>
+
+
+                </select>
+
+                <select name="year list" id="">
+
+                    <optgroup label="">
+
+                        <script>
+                            for (let i = 1991; i <= 2024; i++) {
+                                document.write(`<option value="${i}">${i}</option>`)
+                            }
+                        </script>
+
+                    </optgroup>
+
+                    <option hidden selected value="">Year</option>
+
+
+                </select>
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">address:</label>
+                <textarea name="" id="" cols="40" rows="10"></textarea>
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">city:</label>
+                <input class="c2" type="text" placeholder="For Examle- Rewa">
+                <label class="c3" for="">(max 50 characters allowed)</label>
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">Pincode:</label>
+                <input class="c2" maxlength="6" type="text" placeholder="4XXXX1">
+                <label class="c3" for="">(max 6 characters allowed)</label>
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">State:</label>
+                <input class="c2" type="text" placeholder="Madhya Pradesh">
+                <label class="c3" for="">(max 50 characters allowed)</label>
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">Country:</label>
+                <input class="c2" type="text" placeholder="India">
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">hobbies:</label>
+
+
+                <div class="c5">
+
+                    <input type="checkbox">
+                    <label for="">drawing</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">singing</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">dancing</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">sketching</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">others</label>
+                    <input type="text" placeholder="Ex-Teacher">
+                    <label for=""> (max 50 characters allowed)</label>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">Qualification:</label>
+
+                <div class="c5">
+
+                    <input type="checkbox">
+                    <label for="">high school (10th)</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">higher school (12th)</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">graduation (Bachelors)</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">post graduation (masters)</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">Phd</label>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+
+                <label class="c1" for="">courses applied for:</label>
+
+                <div class="c5">
+
+
+                    <input type="radio">
+                    <label for="">BCA</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">B.COM</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">B.Sc</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">MCA</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">M.COM</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">M.Sc</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">MA</label>
+
+                </div>
+
+
+            </div>
+
+            <div class="row">
+
+                <div class="c6">
+
+                    <div>
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
